@@ -82,7 +82,7 @@ header span {
 .card-content .btn {
   display: inline-block;
   padding: 8px 16px;
-  background: linear-gradient(rgb(4, 4, 108) 25%, #fbe011 75%);
+  background: linear-gradient(rgb(4, 4, 108) 35%, #fbe011 75%);
   color: #fff;
   text-decoration: none;
   box-shadow: 0 0 7px #fff;
