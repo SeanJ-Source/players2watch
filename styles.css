@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(#fbe011 25%, rgb(3, 3, 87) 75%);
+  font-family: 'graduate', serif;
+  max-height: 100%;
+  height: 100%;
+  max-width: 100%;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #fff;
+  line-height: 1.5;
+  text-shadow: 0 0 10px navy;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+header span {
+  margin: 6px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-flow: column wrap;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.card {
+  
+  width: 500px;
+  margin: 20px;
+
+}
+
+.card img {
+  width: auto;
+  height: 15em;
+  
+}
+
+.card-content {
+  display: inline-block;
+  padding: 16px;
+  margin: 16px;
+  flex-wrap: wrap;
+}
+
+.card-content h3 {
+  font-size: 28px;
+  margin: 8px;
+  color: #fff;
+}
+
+.card-content p {
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.3;
+}
+
+.card-content .btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background: linear-gradient(rgb(4, 4, 108) 0%-50%, #fbe011 51%-100%);
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 0 7px #fff;
+  border-radius: 10px;
+  margin: 16px;
+}
+
+.card-content .btn:hover {
+  display: inline-block;
+  padding: 8px 16px;
+  background: linear-gradient(rgb(4, 4, 108) 25%, #fbe011 75%);
+  font-size: 18px;
+  font-weight: 900;
+  transform:rotateX(180deg) rotateY(180deg);
+}
